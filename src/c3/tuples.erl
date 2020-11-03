@@ -7,7 +7,7 @@
 %% DESCRIPTION: 元组就类似一种数据结构
 %%
 
--module(mytuples).
+-module(tuples).
 -export([main/0]).
 
 main() -> 
