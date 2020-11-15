@@ -6,7 +6,7 @@
 %%% @end
 %%% Created : 05. Nov 2020 23:29
 %%%-------------------------------------------------------------------
--module(p56_answer).
+-module(c4).
 -author("qpm").
 
 -include_lib("eunit/include/eunit.hrl").
@@ -41,14 +41,5 @@ my_tuple_to_list_V3(Tuple) ->
 my_tuple_to_list_v3_test() ->
   [1,2,3] = my_tuple_to_list_V3({1,2,3}).
 
-
-%%my_date_string() ->
-%%  {Year, Month, Date} = date(),
-%%  {Hour, Min, Sec}= time(),
-%%  Year + "-" + Month + "-" + Date.
-%%
-%%
-%%my_date_string_test() ->
-%%  "2020-11-6" = my_date_string().
 
 
