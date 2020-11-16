@@ -4,13 +4,13 @@
 %%% @doc
 %%%
 %%% @end
-%%% Created : 15. Nov 2020 21:17
+%%% Created : 17. Nov 2020 00:05
 %%%-------------------------------------------------------------------
--module(walks).
+-module(dialyzer_test2).
 -author("qpm").
 
 %% API
--export([]).
+-export([f1/0]).
 
-
-
+f1() ->
+  tuple_size(list_to_tuple({a,b,c})).
